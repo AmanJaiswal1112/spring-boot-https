@@ -1,0 +1,12 @@
+server:
+  ssl:
+    key-alias: spring-https
+    key-store: classpath:javatechie.jks
+    key-password: password
+    key-store-type: JKS
+
+  port: 7777
+
+spring:
+  banner:
+    location: classpath:banner.txt
